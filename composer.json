@@ -6,7 +6,7 @@
     "require": {
         "php": ">=5.4.0",
         "illuminate/support": "5.*",
-        "auth0/auth0-php": "^5.1.0",
+        "kavvson/auth0": "*",
         "illuminate/contracts": "5.*"
     },
     "autoload": {
@@ -28,5 +28,6 @@
             }
         }
     },
-    "minimum-stability": "dev"
+   "minimum-stability": "dev",
+    "prefer-stable": true
 }
